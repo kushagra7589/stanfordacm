@@ -1,0 +1,21 @@
+set autoindent
+set smartindent
+set cindent
+set shiftwidth=4
+set tabstop=4
+set autoread
+set cmdheight=1
+set number
+set splitright
+set splitbelow
+set makeprg=g++\ -std=c++14\ %\ -o\ out
+map <F8> :!./out < input > output <ENTER><ENTER>
+map <F7< :make \| cope 8 \| wincmd J <ENTER><ENTER>
+map <C-Right> <C-W><Right>
+map <C-Left> <C-W><Left>
+map <C-Up> <C-W><Up>
+map <C-Down> <C-W><Down>
+only
+40vsp input
+20vsp output
+wincmd w

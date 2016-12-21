@@ -16,7 +16,7 @@ GraphCutInference.cc	Graph cut inference
 #MinCostMaxFlow.java	Min-cost max-flow (Java)
 
 [Geometry]
-ConvexHull.cc	Convex hull
+convexHull.cpp	Convex hull
 Geometry.cc	Miscellaneous geometry
 JavaGeometry.java	Java geometry
 Geom3D.java	3D geometry
@@ -34,7 +34,7 @@ Simplex.cc	Simplex algorithm
 [Graph algorithms]
 #BellmanFord.cc	Bellman-Ford shortest paths with negative edge weights (C++)
 #DijkstraFloyd.cc	Dijkstra and Floyd's algorithm (C++)
-FastDijkstra.cc	Fast Dijkstra's algorithm
+djikstra.cpp	Fast Dijkstra's algorithm
 SCC.cc	Strongly connected components
 EulerianPath.cc	Eulerian path
 #Kruskal.cc	Kruskal's algorithm
@@ -48,6 +48,7 @@ KDTree.cc	KD-tree
 splay.cc	Splay tree
 SegmentTreeLazy.java	Lazy segment tree
 LCA.cc	Lowest common ancestor
+sparseTable.cpp	Sparse Table
 
 [Miscellaneous]
 LongestIncreasingSubsequence.cc	Longest increasing subsequence

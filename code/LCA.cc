@@ -31,15 +31,12 @@ int LCA(int p, int q)
     // ensure node p is at least as deep as node q
     if(L[p] < L[q])
 	swap(p, q);
-
     // "binary search" for the ancestor of node p situated on the same level as q
     for(int i = log_num_nodes; i >= 0; i--)
 	if(L[p] - (1<<i) >= L[q])
 	    p = A[p][i];
-    
     if(p == q)
 	return p;
-
     // "binary search" for the LCA
     for(int i = log_num_nodes; i >= 0; i--)
 	if(A[p][i] != -1 && A[p][i] != A[q][i])
@@ -47,7 +44,6 @@ int LCA(int p, int q)
 	    p = A[p][i];
 	    q = A[q][i];
 	}
-    
     return A[p][0];
 }
 
@@ -55,19 +51,16 @@ int main(int argc,char* argv[])
 {
     // read num_nodes, the total number of nodes
     log_num_nodes=lb(num_nodes);
-    
     for(int i = 0; i < num_nodes; i++)
     {
 	int p;
 	// read p, the parent of node i or -1 if node i is the root
-
 	A[i][0] = p;
 	if(p != -1)
 	    children[p].push_back(i);
 	else
 	    root = i;
     }
-
     // precompute A using dynamic programming
     for(int j = 1; j <= log_num_nodes; j++)
 	for(int i = 0; i < num_nodes; i++)
@@ -75,10 +68,7 @@ int main(int argc,char* argv[])
 		A[i][j] = A[A[i][j-1]][j-1];
 	    else
 		A[i][j] = -1;
-
     // precompute L
-    DFS(root, 0);
-
-    
+    DFS(root, 0);   
     return 0;
 }

@@ -51,7 +51,7 @@ UnionFind.cc	Union-find set
 #SegmentTreeLazy.java	Lazy segment tree
 LCA.cc	Lowest common ancestor
 sparseTable.cpp	Sparse Table
-segmentedSieve.cpp	Segmented Sieve
+segmentedsSieve.cpp	Segmented Sieve
 
 [Miscellaneous]
 LongestIncreasingSubsequence.cc	Longest increasing subsequence

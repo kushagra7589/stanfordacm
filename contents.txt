@@ -43,7 +43,7 @@ kruskals.cpp	Kruskal's alternative
 prims.cpp	Prim alternative
 
 [Data structures]
-SuffixArray.cc	Suffix array
+suffixarray.cpp	Suffix array
 BIT.cc	Binary Indexed Tree
 UnionFind.cc	Union-find set
 #KDTree.cc	KD-tree
@@ -51,6 +51,7 @@ UnionFind.cc	Union-find set
 #SegmentTreeLazy.java	Lazy segment tree
 LCA.cc	Lowest common ancestor
 sparseTable.cpp	Sparse Table
+segmentedsSieve.cpp	Segmented Sieve
 
 [Miscellaneous]
 LongestIncreasingSubsequence.cc	Longest increasing subsequence

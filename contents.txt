@@ -43,7 +43,7 @@ kruskals.cpp	Kruskal's alternative
 prims.cpp	Prim alternative
 
 [Data structures]
-suffixArray.cpp	Suffix array
+suffixarray.cpp	Suffix array
 BIT.cc	Binary Indexed Tree
 UnionFind.cc	Union-find set
 #KDTree.cc	KD-tree

@@ -32,15 +32,16 @@ FFT_new.cc	Fast Fourier transform
 #FFT.cc	Fast Fourier transform (C++)
 
 [Graph algorithms]
-BellmanFord.cc	Bellman-Ford shortest paths with negative edge weights (C++)
-DijkstraFloyd.cc	Dijkstra and Floyd's algorithm (C++)
-djikstra.cpp	Fast Dijkstra's algorithm
-SCC.cc	Strongly connected components
+BF.cpp	Bellman-Ford shortest paths with negative edge weights (C++)
+FW.cpp	Floyd-Warshall
+dijkstra2.cpp	Fast Dijkstra's algorithm
+SCcomponents.cpp	Strongly connected components
 EulerianPath.cc	Eulerian path
 #Kruskal.cc	Kruskal's algorithm
 kruskals.cpp	Kruskal's alternative
 #Prim.cc	Prim's algorithm
 prims.cpp	Prim alternative
+Tarjan.cpp Birdge Finding
 
 [Data structures]
 suffixarray.cpp	Suffix array

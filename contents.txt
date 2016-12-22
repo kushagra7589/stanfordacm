@@ -48,13 +48,13 @@ BIT.cc	Binary Indexed Tree
 UnionFind.cc	Union-find set
 #KDTree.cc	KD-tree
 #splay.cc	Splay tree
-#SegmentTreeLazy.java	Lazy segment tree
+segTree.cpp	Lazy segment tree
 LCA.cc	Lowest common ancestor
 sparseTable.cpp	Sparse Table
 segmentedsSieve.cpp	Segmented Sieve
 
 [Miscellaneous]
-LongestIncreasingSubsequence.cc	Longest increasing subsequence
+#LongestIncreasingSubsequence.cc	Longest increasing subsequence
 #Dates.cc	Dates
 #LogLan.java	Regular expressions
 #Primes.cc	Prime numbers

@@ -41,7 +41,7 @@ EulerianPath.cc	Eulerian path
 kruskals.cpp	Kruskal's alternative
 #Prim.cc	Prim's algorithm
 prims.cpp	Prim alternative
-Tarjan.cpp Birdge Finding
+Tarjan.cpp	Bridge Finding
 
 [Data structures]
 suffixarray.cpp	Suffix array

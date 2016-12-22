@@ -28,7 +28,7 @@ Euclid.cc	Number theory (modular, Chinese remainder, linear Diophantine)
 GaussJordan.cc	Systems of linear equations, matrix inverse, determinant
 ReducedRowEchelonForm.cc	Reduced row echelon form, matrix rank
 FFT_new.cc	Fast Fourier transform
-Simplex.cc	Simplex algorithm
+#Simplex.cc	Simplex algorithm
 #FFT.cc	Fast Fourier transform (C++)
 
 [Graph algorithms]
@@ -37,10 +37,10 @@ DijkstraFloyd.cc	Dijkstra and Floyd's algorithm (C++)
 djikstra.cpp	Fast Dijkstra's algorithm
 SCC.cc	Strongly connected components
 EulerianPath.cc	Eulerian path
-Kruskal.cc	Kruskal's algorithm
-Kruskal.cpp Kruskal's alternative
-Prim.cc	Prim's algorithm
-Prim.cpp Prim alternative
+#Kruskal.cc	Kruskal's algorithm
+kruskals.cpp	Kruskal's alternative
+#Prim.cc	Prim's algorithm
+prims.cpp	Prim alternative
 
 [Data structures]
 SuffixArray.cc	Suffix array
@@ -56,7 +56,7 @@ sparseTable.cpp	Sparse Table
 LongestIncreasingSubsequence.cc	Longest increasing subsequence
 #Dates.cc	Dates
 #LogLan.java	Regular expressions
-Primes.cc	Prime numbers
+#Primes.cc	Prime numbers
 #IO.cc	C++ input/output
 #KMP.cc	Knuth-Morris-Pratt
 #LatLong.cc	Latitude/longitude
@@ -67,5 +67,5 @@ TopologicalSort.cc	Topological sort (C++)
 #RandomSTL.cc	Random STL stuff
 #CSP.cc	Constraint satisfaction problems
 #FastExpo.cc	Fast exponentiation
-LCS.cc	Longest common subsequence
+#LCS.cc	Longest common subsequence
 #MillerRabin.c	Miller-Rabin Primality Test (C)
